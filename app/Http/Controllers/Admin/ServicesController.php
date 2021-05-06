@@ -82,7 +82,7 @@ class ServicesController extends Controller
         $params = $request->all();
         unset($params['image']);
         if ($request->has('image')) {
-            Storage::delete($service->image);
+            if($service->image) Storage::delete($service->image);
             $path = $request->file('image')->store('services');
             $params['image'] = $path;
         }
