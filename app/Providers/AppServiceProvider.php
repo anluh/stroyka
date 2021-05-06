@@ -26,9 +26,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $services = Service::all();
-        $categories = Category::all();
-
-        view()->share(['services' => $services, 'categories' => $categories]);
+//        $services = Service::all();
+//        $categories = Category::all();
+//
+//        view()->share(['services' => $services, 'categories' => $categories]);
     }
 }
