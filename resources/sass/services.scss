@@ -31,6 +31,11 @@
 .table-image {
     width: 30px;
 
+    @include mobile {
+        width: auto;
+        text-align: center;
+    }
+
     img {
         height: 50px;
     }

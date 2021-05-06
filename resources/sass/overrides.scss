@@ -130,5 +130,22 @@ a:hover {
 }
 
 .block-slideshow__slide-image {
-    background-size: cover;
+    background-size: contain;
+}
+
+.block-slideshow__body,
+.owl-stage-outer,
+.owl-carousel{
+    @include mobile {
+        height: 300px !important;
+    }
+}
+
+.footer-contacts__contacts {
+    display: flex;
+    align-items: center;
+
+    li {
+        margin-right: 20px;
+    }
 }

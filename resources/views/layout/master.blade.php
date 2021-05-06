@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
     <title>Stroyka</title>
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+    <link rel="icon" type="image/png" href="/images/favicon.svg">
     <!-- fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i">
     <!-- css -->
@@ -62,7 +62,7 @@
                 </div>
                 <div class="site-header__phone">
                     <div class="site-header__phone-title">Гаряча лінія</div>
-                    <a class="site-header__phone-number" href="callto:+30950600730">(095) 060-0730</a>
+                    <a class="site-header__phone-number" href="callto:+380688400582">(068) 840-0582</a>
                 </div>
             </div>
             <div class="site-header__nav-panel">
@@ -217,56 +217,32 @@
             <div class="container">
                 <div class="site-footer__widgets">
                     <div class="row">
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-12 col-lg-12">
                             <div class="site-footer__widget footer-contacts">
                                 <h5 class="footer-contacts__title">Зв'яжіться з нами</h5>
-                                <div class="footer-contacts__text">
-                                    Ми знаходимось ...
-                                </div>
                                 <ul class="footer-contacts__contacts">
-                                    <li><i class="footer-contacts__icon fas fa-globe-americas"></i> м. Київ Багговутівська 3/15</li>
                                     <li><i class="footer-contacts__icon far fa-envelope"></i> stroymatpro@gmail.com</li>
-                                    <li><i class="footer-contacts__icon fas fa-mobile-alt"></i> (095) 060-0730, (093) 060-0730</li>
+                                    <li><i class="footer-contacts__icon fas fa-mobile-alt"></i> +380 (68) 840 05 82</li>
                                     <li><i class="footer-contacts__icon far fa-clock"></i> Понеділок-П'ятниця 9:00 - 19:00</li>
-                                    <li>
-                                        <!-- social-links -->
-                                        <div class="social-links footer-newsletter__social-links social-links--shape--circle">
-                                            <ul class="social-links__list" style="color: #fff">
-                                                <li class="social-links__item">
-                                                    <a class="social-links__link social-links__link--type--rss" href="" target="_blank">
-                                                        <i class="fas fa-rss"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="social-links__item">
-                                                    <a class="social-links__link social-links__link--type--youtube" href="" target="_blank">
-                                                        <i class="fab fa-youtube"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="social-links__item">
-                                                    <a class="social-links__link social-links__link--type--facebook" href="" target="_blank">
-                                                        <i class="fab fa-facebook-f"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="social-links__item">
-                                                    <a class="social-links__link social-links__link--type--twitter" href="" target="_blank">
-                                                        <i class="fab fa-twitter"></i>
-                                                    </a>
-                                                </li>
-                                                <li class="social-links__item">
-                                                    <a class="social-links__link social-links__link--type--instagram" href="" target="_blank">
-                                                        <i class="fab fa-instagram"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- social-links / end -->
-                                    </li>
+{{--                                    <li>--}}
+{{--                                        <!-- social-links -->--}}
+{{--                                        <div class="social-links footer-newsletter__social-links social-links--shape--circle">--}}
+{{--                                            <ul class="social-links__list" style="color: #fff">--}}
+{{--                                                <li class="social-links__item">--}}
+{{--                                                    <a class="social-links__link social-links__link--type--facebook" href="" target="_blank">--}}
+{{--                                                        <i class="fab fa-facebook-f"></i>--}}
+{{--                                                    </a>--}}
+{{--                                                </li>--}}
+{{--                                            </ul>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- social-links / end -->--}}
+{{--                                    </li>--}}
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-8">
-                            <iframe style="height: 100%; width:100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1269.6854415935488!2d30.474071176695947!3d50.47143881433512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cddbc4bc6c0f%3A0x4827cc06a768bbbb!2z0KHRltC90LXQstC-!5e0!3m2!1suk!2sua!4v1608131413534!5m2!1suk!2sua" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        </div>
+{{--                        <div class="col-12 col-md-6 col-lg-8">--}}
+{{--                            <iframe style="height: 100%; width:100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1269.6854415935488!2d30.474071176695947!3d50.47143881433512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cddbc4bc6c0f%3A0x4827cc06a768bbbb!2z0KHRltC90LXQstC-!5e0!3m2!1suk!2sua!4v1608131413534!5m2!1suk!2sua" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>--}}
+{{--                        </div>--}}
                 </div>
             </div>
             <div class="totop">
@@ -321,6 +297,33 @@
 
                     </div>
                 </li>
+
+
+                <li class="mobile-links__item" data-collapse-item="">
+                    <div class="mobile-links__item-title">
+                        <a href="" class="mobile-links__item-link">Послуги</a>
+                        <button class="mobile-links__item-toggle" type="button" data-collapse-trigger="">
+                            <svg class="mobile-links__item-arrow" width="12px" height="7px">
+                                <use xlink:href="/images/sprite.svg#arrow-rounded-down-9x6"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="mobile-links__item-sub-links" data-collapse-content="" style="">
+                        <ul class="mobile-links mobile-links--level--1">
+                            @isset($services)
+                                @foreach($services as $service)
+                                    <li class="mobile-links__item" data-collapse-item="">
+                                        <div class="mobile-links__item-title">
+                                            <a href="{{ route('service', $service->id) }}" class="mobile-links__item-link">{{ $service->title }}</a>
+                                        </div>
+                                    </li>
+                                @endforeach
+                            @endisset
+                        </ul>
+                    </div>
+                </li>
+
+
             </ul>
         </div>
     </div>
