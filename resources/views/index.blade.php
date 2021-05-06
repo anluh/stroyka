@@ -1,6 +1,4 @@
 @extends('layout.master')
-@php ($sliderImages = ['repare', 'plum', 'elect', 'clean', 'delivery'])
-
 @section('content')
     <div class="frontpage">
         <!-- .block-slideshow -->
@@ -11,15 +9,16 @@
                     <div class="col-12 col-lg-9">
                         <div class="block-slideshow__body">
                             <div class="owl-carousel">
-
-                                @foreach($services as $service)
-                                    <a class="block-slideshow__slide" href="{{ route('service', $service->id) }}">
-                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop"
-                                             style="background-image: url('{{ Storage::url($service->image) }}')"></div>
-{{--                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile"--}}
-{{--                                             style="background-image: url('images/{{$image}}.jpg')"></div>--}}
-                                    </a>
-                                @endforeach
+                                @isset($services)
+                                    @foreach($services as $service)
+                                        <a class="block-slideshow__slide" href="{{ route('service', $service->id) }}">
+                                            <div class="block-slideshow__slide-image block-slideshow__slide-image--desktop"
+                                                 style="background-image: url('{{ Storage::url($service->image) }}')"></div>
+    {{--                                        <div class="block-slideshow__slide-image block-slideshow__slide-image--mobile"--}}
+    {{--                                             style="background-image: url('images/{{$image}}.jpg')"></div>--}}
+                                        </a>
+                                    @endforeach
+                                @endisset
                             </div>
                         </div>
                     </div>

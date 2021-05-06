@@ -136,15 +136,16 @@
                                             <div class="menu menu--layout--classic ">
                                                 <div class="menu__submenus-container"></div>
                                                 <ul class="menu__list">
-                                                    @foreach($services as $service)
-                                                        <li class="menu__item">
-                                                            <div class="menu__item-submenu-offset"></div>
-                                                            <a class="menu__item-link" href="{{ route('service', $service->id) }}">
-                                                                {{ $service->title }}
-                                                            </a>
-                                                        </li>
-                                                    @endforeach
-
+                                                    @isset($services)
+                                                        @foreach($services as $service)
+                                                            <li class="menu__item">
+                                                                <div class="menu__item-submenu-offset"></div>
+                                                                <a class="menu__item-link" href="{{ route('service', $service->id) }}">
+                                                                    {{ $service->title }}
+                                                                </a>
+                                                            </li>
+                                                        @endforeach
+                                                    @endisset
                                                 </ul>
                                             </div>
                                             <!-- .menu / end -->
